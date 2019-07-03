@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
 
-  <remote  name="non"
+  <remote  name="9300"
            fetch="https://github.com/i9300viper"
            revision="cm-14.1" />
 
