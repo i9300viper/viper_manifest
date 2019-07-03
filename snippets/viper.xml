@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
 
+  <remote  name="non"
+           fetch="https://github.com/i9300viper"
+           revision="cm-14.1" />
+
+  <!-- i9300 -->
+  <project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="9300" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="9300" clone-depth="1" />
+  <project name="android_device_samsung_i9300" path="device/samsung/i9300" remote="9300" />
+  <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="9300" />
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="9300" />
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="9300" />
+
     <!-- Begin ViperOS Additions -->
     <project path="build" name="android_build" remote="viper">
         <copyfile src="core/root.mk" dest="Makefile" />
