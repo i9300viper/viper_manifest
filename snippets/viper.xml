@@ -12,6 +12,9 @@
   <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="9300" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="9300" />
   <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="9300" />
+  <project name="android_external_stlport" path="external/stlport" remote="9300" />
+  <project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="9300" />
+  <project name="android_packages_apps_Stk" path="packages/apps/Stk" groups="apps_stk,pdk-fs" remote="9300" />
 
     <!-- Begin ViperOS Additions -->
     <project path="build" name="android_build" remote="viper">
@@ -40,7 +43,7 @@
     <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="viper" />
     <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="viper" />
     <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="viper" />
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="9300" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="9300" revision="nougat" />
     <project path="packages/apps/Venom" name="android_packages_apps_Venom" remote="viper" />
     <project path="packages/apps/ViperOTA" name="android_packages_apps_ViperOTA" remote="viper" />
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="viper" />
@@ -56,8 +59,8 @@
 
     <!-- Services -->
     <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="viper" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="9300" />
-    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="9300" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="9300" revision="nougat" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="9300" revision="nougat"/>
     <project path="packages/services/ThemeInterfacer" name="android_packages_services_ThemeInterfacer" remote="viper" />
 
     <!-- System -->
